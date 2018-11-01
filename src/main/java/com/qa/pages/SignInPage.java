@@ -32,6 +32,7 @@ public class SignInPage extends TestBase{
 	{
 		email.sendKeys(prop.getProperty("username"));
 		password.sendKeys(prop.getProperty("password"));
+		
 		return this;
 	}
 }

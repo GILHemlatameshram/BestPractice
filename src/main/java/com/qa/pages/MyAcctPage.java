@@ -21,6 +21,6 @@ public class MyAcctPage extends TestBase {
 		Assert.assertEquals(true, profileName.isDisplayed());
 		Assert.assertEquals("Hello! Hemlata", profileName.getText());
 		System.out.println("Changes pushing to test the git polling after push");
-		System.out.println("2nd time  ----Changes pushing to test the git polling after push");
+		System.out.println("3rd time  ----Changes pushing to test the git polling after push");
 	}
 }
