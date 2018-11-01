@@ -20,5 +20,6 @@ public class MyAcctPage extends TestBase {
 		//Verify if profile name is displayed and its value
 		Assert.assertEquals(true, profileName.isDisplayed());
 		Assert.assertEquals("Hello! Hemlata", profileName.getText());
+		System.out.println("Changes pushing to test the git polling after push");
 	}
 }
